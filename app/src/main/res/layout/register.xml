@@ -1,0 +1,173 @@
+<LinearLayout
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/constraintLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_centerVertical="true"
+    android:background="@color/colorBg"
+    android:orientation="vertical"
+    tools:context="com.example.roongrojphetkheaw.qzy_screen.MainActivity$PlaceholderFragment">
+
+
+    <RelativeLayout
+
+        android:id="@+id/relause"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center"
+        android:layout_marginTop="50dp"
+        android:clipToPadding="true"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/Email"
+            android:layout_width="282dp"
+            android:layout_height="40dp"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:textSize="14dp"
+            android:background="@drawable/buttom"
+            android:ems="10"
+            android:gravity="center"
+            android:hint="EMAIL"
+            android:inputType="textEmailAddress"
+            android:pointerIcon="wait" />
+
+        <ImageView
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:src="@drawable/ic_email_black_24dp" />
+
+    </RelativeLayout>
+
+
+    <RelativeLayout
+
+        android:id="@+id/pass"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center"
+        android:layout_marginTop="50dp"
+        android:clipToPadding="true"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/Password"
+            android:layout_width="282dp"
+            android:layout_height="40dp"
+            android:layout_alignParentTop="true"
+            android:textSize="14dp"
+            android:layout_centerHorizontal="true"
+            android:background="@drawable/buttom"
+            android:ems="10"
+            android:gravity="center"
+            android:hint="PASSWORD"
+            android:inputType="textPassword"
+            android:pointerIcon="wait" />
+
+        <ImageView
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:src="@drawable/ic_lock_black_24dp" />
+
+
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center"
+        android:layout_marginTop="50dp"
+        android:clipToPadding="true"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/confirmPassword"
+            android:layout_width="282dp"
+            android:layout_height="40dp"
+            android:textSize="14dp"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:background="@drawable/buttom"
+            android:ems="10"
+            android:gravity="center"
+            android:hint="CONFIRM  PASSWORD"
+            android:inputType="textVisiblePassword"
+            android:pointerIcon="wait" />
+
+        <ImageView
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:src="@drawable/ic_lock_black_24dp" />
+
+
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center"
+        android:layout_marginTop="50dp"
+        android:clipToPadding="true"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/phone"
+            android:textSize="14dp"
+            android:layout_width="282dp"
+            android:layout_height="40dp"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:background="@drawable/buttom"
+            android:ems="10"
+            android:gravity="center"
+            android:hint="Phone Number"
+            android:inputType="textPhonetic"
+            android:pointerIcon="wait" />
+
+        <ImageView
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:src="@drawable/ic_local_phone_black_24dp" />
+
+
+
+    </RelativeLayout>
+
+
+
+
+    <Button
+        android:textAlignment="center"
+        android:layout_gravity="center"
+        android:background="@drawable/buttom"
+        android:id="@+id/button"
+        android:layout_width="282dp"
+        android:layout_height="40dp"
+        android:layout_below="@+id/imageView3"
+        android:textSize="14dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="78dp"
+        android:text="Button" />
+
+
+</LinearLayout>
