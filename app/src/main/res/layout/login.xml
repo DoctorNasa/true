@@ -27,22 +27,29 @@
 
         <EditText
             android:id="@+id/Username"
-            android:layout_width="282dp"
-            android:layout_height="40dp"
+            android:layout_width="290dp"
+            android:layout_height="60dp"
             android:textSize="14dp"
             android:layout_alignParentTop="true"
             android:layout_centerHorizontal="true"
-            android:background="@drawable/buttom"
+            android:background="@drawable/qzyfield"
             android:ems="10"
+            android:textColor="@color/grey_80"
             android:gravity="center"
             android:hint="USERNAME"
+            android:textColorHint="@color/grey_40"
             android:inputType="textPersonName"
             android:pointerIcon="wait" />
 
         <ImageView
             android:layout_width="40dp"
             android:layout_height="40dp"
-            android:src="@drawable/ic_person_black_24dp" />
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="20dp"
+            android:layout_marginStart="20dp"
+            android:src="@drawable/qzyiconmailred" />
 
     </RelativeLayout>
 
@@ -55,45 +62,52 @@
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
         android:layout_gravity="center"
-        android:layout_marginTop="50dp"
+        android:layout_marginTop="10dp"
         android:clipToPadding="true"
         android:gravity="center"
         android:orientation="vertical">
 
         <EditText
             android:id="@+id/Password"
-            android:layout_width="282dp"
-            android:layout_height="40dp"
+            android:layout_width="290dp"
+            android:layout_height="60dp"
             android:textSize="14dp"
             android:layout_alignParentTop="true"
             android:layout_centerHorizontal="true"
-            android:background="@drawable/buttom"
+            android:background="@drawable/qzyfield"
             android:ems="10"
+            android:textColor="@color/grey_80"
             android:gravity="center"
             android:hint="PASSWORD"
+            android:textColorHint="@color/grey_40"
             android:inputType="textPassword"
             android:pointerIcon="wait" />
 
         <ImageView
             android:layout_width="40dp"
             android:layout_height="40dp"
-            android:src="@drawable/ic_lock_black_24dp" />
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="20dp"
+            android:layout_marginStart="20dp"
+            android:src="@drawable/qzyiconpassred" />
 
     </RelativeLayout>
 
 
     <Button
-        android:textAlignment="center"
-        android:textSize="14dp"
-        android:layout_gravity="center"
-        android:background="@drawable/buttom"
         android:id="@+id/button"
-        android:layout_width="282dp"
-        android:layout_height="40dp"
+        android:layout_width="290dp"
+        android:layout_height="60dp"
         android:layout_below="@+id/imageView3"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="78dp"
-        android:text="Login" />
+        android:layout_gravity="center"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/qzybuttongo"
+        android:text="Login"
+        android:textAlignment="center"
+        android:textSize="14dp" />
 
     <TextView
         android:textAlignment="center"
