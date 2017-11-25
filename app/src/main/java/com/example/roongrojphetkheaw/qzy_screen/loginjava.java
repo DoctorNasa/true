@@ -28,13 +28,7 @@ public class loginjava extends Fragment {
 
         initListeners();
 
-        TextView txtpass = (TextView) rootview.findViewById(R.id.txtpass);
-        txtpass.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                getFragmentManager().beginTransaction().setTransition(new registerjava()).commit();
-            }
-        });
+
 
 
         return rootview;
