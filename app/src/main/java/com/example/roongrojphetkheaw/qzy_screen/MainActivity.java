@@ -1,5 +1,7 @@
 package com.example.roongrojphetkheaw.qzy_screen;
 
+import android.os.Build;
+import android.support.annotation.RequiresApi;
 import android.support.design.widget.TabLayout;
 import android.support.design.widget.FloatingActionButton;
 import android.support.design.widget.Snackbar;
@@ -17,6 +19,7 @@ import android.view.MenuItem;
 import android.view.View;
 import android.view.ViewGroup;
 
+import android.widget.ImageView;
 import android.widget.TextView;
 
 public class MainActivity extends AppCompatActivity {
@@ -40,6 +43,7 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+
 
 
 //        Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
@@ -67,6 +71,21 @@ public class MainActivity extends AppCompatActivity {
 //            }
 //        });
 
+        ImageView iv = findViewById(R.id.icon_main);
+        iv.setOnClickListener(new View.OnClickListener() {
+            @RequiresApi(api = Build.VERSION_CODES.JELLY_BEAN)
+            @Override
+            public void onClick(View v) {
+
+                startActivity(R.layout.activity_user_home,MainActivity.this);
+
+//
+            }
+
+            private void startActivity(int abc_action_bar_title_item, MainActivity mainActivity) {
+
+            }
+        });
     }
 
 

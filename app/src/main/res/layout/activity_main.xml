@@ -31,6 +31,7 @@
 
 
         <ImageView
+            android:id="@+id/icon_main"
             android:layout_marginTop="30dp"
             android:layout_marginBottom="30dp"
             android:layout_width="wrap_content"
@@ -42,6 +43,7 @@
 
         <android.support.design.widget.TabLayout
             android:id="@+id/tabs"
+            style="@style/MyCustomTabLayout"
             app:tabTextColor="#f4f4f4"
             app:tabIndicatorColor="#FE696D"
             android:layout_width="match_parent"
