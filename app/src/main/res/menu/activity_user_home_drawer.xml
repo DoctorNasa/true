@@ -1,17 +1,32 @@
 <?xml version="1.0" encoding="utf-8"?>
 <menu xmlns:android="http://schemas.android.com/apk/res/android">
 
+
     <item android:title="Home">
+
         <menu>
+
             <item
-                android:id="@+id/navEditProfile"
-                android:icon="@drawable/ic_edit"
+                android:id="@+id/MyQR"
+                android:title="My QR" />
+
+            <item
+                android:id="@+id/MyPoint"
+                android:title="My Point" />
+
+            <item
+                android:id="@+id/MyFavouriteshop"
+                android:title="My Favorite shop" />
+
+            <item
+                android:id="@+id/editprofile"
                 android:title="Edit Profile" />
+
             <item
-                android:id="@+id/navLogout"
-                android:icon="@drawable/ic_logout"
-                android:title="Logout" />
+                android:id="@+id/Notifi"
+                android:title="Notifi" />
+
         </menu>
     </item>
 
-</menu>
+</menu><!--android:icon="@drawable/ic_edit"-->
