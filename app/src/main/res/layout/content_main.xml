@@ -15,6 +15,91 @@
 
     </android.support.v4.view.ViewPager>
 
+    <RelativeLayout
+
+        android:id="@+id/pass"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:clipToPadding="true"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <EditText
+            android:fontFamily="@font/sukhumvitsetmedium"
+            android:id="@+id/Password"
+            android:layout_width="290dp"
+            android:layout_height="50dp"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:background="@drawable/qzyfield"
+            android:ems="10"
+            android:gravity="center"
+            android:hint="ค้นหาร้านค้า"
+            android:inputType="textPassword"
+            android:pointerIcon="wait"
+            android:textColor="@color/grey_80"
+            android:textColorHint="@color/grey_40"
+            android:textSize="20dp" />
+
+        <ImageView
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="20dp"
+            android:layout_marginStart="20dp"
+            android:src="@drawable/qzy_search" />
+
+
+        <ImageView
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_alignParentLeft="true"
+            android:src="@drawable/qzy_categories" />
+
+
+    </RelativeLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="1dp"
+            android:layout_weight="1"
+
+            android:src="@drawable/line" />
+
+        <TextView
+            android:fontFamily="@font/sukhumvitsetmedium"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="5dp"
+            android:gravity="center"
+            android:text="ส่วนลดร้านค้าใหม่"
+            android:textColor="@color/overlay_dark_20"
+            android:textSize="20dp" />
+
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="1dp"
+            android:layout_weight="1"
+            android:src="@drawable/line" />
+
+    </LinearLayout>
+
+
+
     <android.support.v7.widget.RecyclerView
         android:layout_weight="3"
         android:id="@+id/data_list"

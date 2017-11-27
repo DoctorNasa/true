@@ -1,5 +1,6 @@
 package com.example.roongrojphetkheaw.qzy_screen;
 
+import android.content.Context;
 import android.content.Intent;
 import android.os.Bundle;
 import android.support.design.widget.Snackbar;
@@ -15,6 +16,8 @@ import android.view.View;
 import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.ListView;
+
+import uk.co.chrisjenx.calligraphy.CalligraphyContextWrapper;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -35,6 +38,11 @@ public class MainActivity extends AppCompatActivity {
         MainFragment mainFragment = new MainFragment();
         getSupportFragmentManager(). beginTransaction().add(R.id.container,mainFragment).commit();
 
+    }
+
+    @Override
+    protected void attachBaseContext(Context newBase) {
+        super.attachBaseContext(CalligraphyContextWrapper.wrap(newBase));
     }
 
     @Override
