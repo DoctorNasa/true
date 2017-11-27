@@ -9,7 +9,7 @@
     android:layout_centerVertical="true"
     android:background="@color/colorBg"
     android:orientation="vertical"
-    tools:context="com.example.roongrojphetkheaw.qzy_screen.MainActivity$PlaceholderFragment">
+    tools:context="com.example.roongrojphetkheaw.qzy_screen.LoginActivity$PlaceholderFragment">
 
 
     <RelativeLayout

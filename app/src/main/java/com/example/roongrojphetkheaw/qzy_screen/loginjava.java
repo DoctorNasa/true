@@ -21,16 +21,10 @@ import static com.pchmn.materialchips.R2.id.container;
 public class loginjava extends Fragment {
 
 
-
     @Override
     public View onCreateView(LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
-        View rootview = inflater.inflate(R.layout.login, container,false);
-
+        View rootview = inflater.inflate(R.layout.login, container, false);
         initListeners();
-
-
-
-
         return rootview;
 
     }

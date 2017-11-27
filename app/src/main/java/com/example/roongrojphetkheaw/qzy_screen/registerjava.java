@@ -18,8 +18,6 @@ public class registerjava extends Fragment {
     public View onCreateView(LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState)  {
         View rootview = inflater.inflate(R.layout.register, container,false);
         return rootview;
-
-
     }
 }
 
